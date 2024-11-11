@@ -1,0 +1,3 @@
+#!/bin/bash
+
+for i in {1..5};do perf stat --repeat=3 --field-separator=, --output=./cold_low_util/$i/cold$i.out --event cycles,instructions,dTLB-load-misses,dTLB-loads,L1-dcache-load-misses,L1-dcache-loads,LLC-load-misses,LLC-loads --  time --format=seconds-elapsed,%e\nuser-time-seconds,%U\nkernel-time-seconds,%S\nmax-resident-memory-kb,%M --output=./cold_low_util/$i/time.out  ./mosmodel_dev/scripts/setCpuMemoryAffinity.sh 1  ./mosalloc_dev/runMosalloc.py --library  ./mosalloc_dev/build/src/libmosalloc.so -cpf ./cold_low_util/layout$i.csv ./new_benchmark/lu.out $i; done

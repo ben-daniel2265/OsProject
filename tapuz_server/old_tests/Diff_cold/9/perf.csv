@@ -1,0 +1,15 @@
+# started on Sun Mar 10 18:21:54 2024
+
+512380480,,cpu-cycles,0.25%,43915229102,38.45,,
+366590656,,instructions,0.36%,52699688777,46.14,0.71,insn per cycle
+133290,,dtlb_load_misses.walk_active,55.30%,52698248147,46.14,,
+2245,,dtlb_load_misses.walk_completed,26.27%,52701271288,46.15,,
+172533,,dtlb_load_misses.stlb_hit,13.68%,52707705951,46.15,,
+155827,,dtlb_load_misses.walk_pending,38.09%,52714188096,46.16,,
+1387477,,mem_load_retired.l1_miss,2.22%,35147666060,30.78,,
+96382895,,mem_load_retired.l1_hit,0.86%,35147707051,30.78,,
+600597,,mem_load_retired.l2_miss,1.96%,35147709817,30.78,,
+774582,,mem_load_retired.l2_hit,2.05%,35147731597,30.78,,
+206220,,mem_load_retired.l3_miss,1.24%,35144671809,30.77,,
+299666,,mem_load_retired.l3_hit,4.00%,35138232905,30.77,,
+9483276,,cycle_activity.stalls_l3_miss,1.93%,35131754620,30.76,,

@@ -1,0 +1,28 @@
+# started on Sun Mar 10 18:58:40 2024
+
+609834984,,ref-cycles,9703767942,19.21,,
+221765499,,cpu-cycles,11645775520,23.06,,
+164482216,,instructions,13588094545,26.91,0.74,insn per cycle
+71357,,dtlb_load_misses.stlb_hit,13587759712,26.91,,
+31575,,dtlb_load_misses.walk_active,13588553140,26.91,,
+423,,dtlb_load_misses.walk_completed,13590963374,26.91,,
+14,,dtlb_load_misses.walk_completed_2m_4m,13595741201,26.92,,
+357,,dtlb_load_misses.walk_completed_4k,7771344919,15.39,,
+25382,,dtlb_load_misses.walk_pending,7771379762,15.39,,
+1098086,,L1-dcache-load-misses,7771379386,15.39,2.50,of all L1-dcache accesses
+43964544,,L1-dcache-loads,7771396619,15.39,,
+26655955,,L1-dcache-stores,7771407629,15.39,,
+3505522,,L1-icache-load-misses,7771390600,15.39,,
+1617504,,l1d_pend_miss.fb_full,7771414720,15.39,,
+168737,,l1d_pend_miss.l2_stall,7771395515,15.39,,
+20144399,,l1d_pend_miss.pending_cycles,7771415848,15.39,,
+663027,,l2_rqsts.all_demand_data_rd,7771384433,15.39,,
+416184,,l2_rqsts.all_demand_miss,7771387165,15.39,,
+402568,,l2_rqsts.demand_data_rd_hit,7771429245,15.39,,
+274745,,l2_rqsts.demand_data_rd_miss,7771416067,15.39,,
+176443,,dtlb_store_misses.stlb_hit,7771431545,15.39,,
+2417,,dtlb_store_misses.walk_active,7771421429,15.39,,
+90,,dtlb_store_misses.walk_completed,7771394822,15.39,,
+0,,dtlb_store_misses.walk_completed_2m_4m,7770574488,15.39,,
+97,,dtlb_store_misses.walk_completed_4k,7768165754,15.38,,
+12216,,dtlb_store_misses.walk_pending,7763350361,15.37,,

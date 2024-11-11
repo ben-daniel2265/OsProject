@@ -1,0 +1,23 @@
+# started on Wed Feb 28 20:48:59 2024
+
+15624694507,,ref-cycles,0.57%,1753835512,26.80,,
+18416176477,,cpu-cycles,0.32%,2096647935,32.02,,
+16265417551,,instructions,0.69%,2441677787,37.27,0.89,insn per cycle
+30587066,,dtlb_load_misses.stlb_hit,2.61%,2444493047,37.29,,
+8629159126,,dtlb_load_misses.walk_active,0.65%,2438211934,37.17,,
+325048191,,dtlb_load_misses.walk_completed,0.52%,2414267111,36.86,,
+14263,,dtlb_load_misses.walk_completed_2m_4m,11.37%,2411665029,37.09,,
+321056857,,dtlb_load_misses.walk_completed_4k,0.24%,1387641448,21.33,,
+11632942638,,dtlb_load_misses.walk_pending,0.24%,1385388681,21.29,,
+
+700841449,,L1-dcache-load-misses,0.12%,1383689980,21.25,10.93,of all L1-dcache accesses
+6420833759,,L1-dcache-loads,0.20%,1374396405,21.09,,
+1947097135,,L1-dcache-stores,0.61%,1369891588,21.01,,
+38263934,,L1-icache-load-misses,10.63%,1378127150,21.12,,
+
+14140626,,dtlb_store_misses.stlb_hit,14.83%,1372869089,21.03,,
+9499588,,dtlb_store_misses.walk_active,28.62%,1375538589,21.23,,
+259691,,dtlb_store_misses.walk_completed,35.11%,1375568284,21.21,,
+12149,,dtlb_store_misses.walk_completed_2m_4m,7.18%,1375866602,21.17,,
+391318,,dtlb_store_misses.walk_completed_4k,14.15%,1406768187,21.56,,
+17165063,,dtlb_store_misses.walk_pending,11.85%,1415994344,21.65,,
